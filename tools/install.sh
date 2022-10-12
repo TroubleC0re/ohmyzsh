@@ -502,16 +502,16 @@ EOF
 
   setup_ohmyzsh
   # setup_zshrc
-  # setup_shell
+  setup_shell
 
-  # print_success
+  print_success
 
-  # if [ $RUNZSH = no ]; then
-  #   echo "${FMT_YELLOW}Run zsh to try it out.${FMT_RESET}"
-  #   exit
-  # fi
+  if [ $RUNZSH = no ]; then
+    echo "${FMT_YELLOW}Run zsh to try it out.${FMT_RESET}"
+    exit
+  fi
 
-  # exec zsh -l
+  exec zsh -l
 }
 
 main "$@"
