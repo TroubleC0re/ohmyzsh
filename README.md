@@ -66,10 +66,10 @@ To learn more, visit [ohmyz.sh](https://ohmyz.sh), follow [@ohmyzsh](https://twi
 
 Oh My Zsh is installed by running one of the following commands in your terminal. You can install this via the command-line with either `curl`, `wget` or another similar tool.
 
-| Method    | Command                                                                                           |
-| :-------- | :------------------------------------------------------------------------------------------------ |
+| Method    | Command                                                                                               |
+| :-------- | :---------------------------------------------------------------------------------------------------- |
 | **curl**  | `sh -c "$(curl -fsSL https://raw.githubusercontent.com/TroubleC0re/ohmyzsh/master/tools/install.sh)"` |
-| **wget**  | `sh -c "$(curl -fsSL https://raw.githubusercontent.com/TroubleC0re/ohmyzsh/master/tools/install.sh)"`   |
+| **wget**  | `sh -c "$(curl -fsSL https://raw.githubusercontent.com/TroubleC0re/ohmyzsh/master/tools/install.sh)"` |
 | **fetch** | `sh -c "$(curl -fsSL https://raw.githubusercontent.com/TroubleC0re/ohmyzsh/master/tools/install.sh)"` |
 
 _Note that any previous `.zshrc` will be renamed to `.zshrc.pre-oh-my-zsh`. After installation, you can move the configuration you want to preserve into the new `.zshrc`._
